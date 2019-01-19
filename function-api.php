@@ -18,7 +18,7 @@ function panggilAPI($method, $url, $data) {
 
   curl_setopt($curl, CURLOPT_URL, $url);
   curl_setopt($curl, CURLOPT_HTTPHEADER, array(
-    'Authorization: Bearer YjA5YWJlM2EtYWY1NS00ZWQ0LWFmNjQtZDNiZGUyODNhMTM3MDQ2ZGY3YmUtMjQw_PF84_da545961-7eb5-4fc5-b1b5-27348ff85e28',
+    'Authorization: Bearer {{Ini diganti Security Token RESTful API dari Cisco Webex}}',
     'Content-Type: application/json',
   ));
   curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
